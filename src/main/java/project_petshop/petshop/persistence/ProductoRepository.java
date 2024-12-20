@@ -22,9 +22,7 @@ public class ProductoRepository {
     public Producto createProducto(Producto producto) {
         return productoCrudRepository.save(producto);
     }
-     public Producto updateProducto(Producto producto) {
-        return productoCrudRepository.save(producto);
-     }
+
      public void deleteProducto(int id) {
         productoCrudRepository.deleteById(id);
      }

@@ -5,6 +5,7 @@ import project_petshop.petshop.persistence.crud.CategoriaCrudRepository;
 import project_petshop.petshop.persistence.entity.Categoria;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public class CategoriaRepository {
@@ -15,13 +16,12 @@ public class CategoriaRepository {
         return (List<Categoria>) categoriaCrudRepository.findAll();
     }
 
+    public Optional<Categoria> getCategoriaById(int id){return categoriaCrudRepository.findById(id);}
+
     public Categoria createCategoria(Categoria categoria){
         return categoriaCrudRepository.save(categoria);
     }
 
-    public Categoria updateCategoria(Categoria categoria){
-        return categoriaCrudRepository.save(categoria);
-    }
 
     public void deleteCategoria(int id){
         categoriaCrudRepository.deleteById(id);

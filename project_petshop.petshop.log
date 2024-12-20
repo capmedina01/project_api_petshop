@@ -1,20 +1,20 @@
-2024-12-17T13:31:26.135-05:00  INFO 5220 --- [petshop] [main] p.petshop.PetshopApplication             : Starting PetshopApplication using Java 21.0.3 with PID 5220 (C:\Users\SHAREPOINT\Documents\SENA\javaSpringBoot\project_api_petshop\petshop\build\classes\java\main started by SHAREPOINT in C:\Users\SHAREPOINT\Documents\SENA\javaSpringBoot\project_api_petshop\petshop)
-2024-12-17T13:31:26.151-05:00  INFO 5220 --- [petshop] [main] p.petshop.PetshopApplication             : The following 1 profile is active: "dev"
-2024-12-17T13:31:26.950-05:00  INFO 5220 --- [petshop] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-17T13:31:27.020-05:00  INFO 5220 --- [petshop] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
-2024-12-17T13:31:27.641-05:00  INFO 5220 --- [petshop] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8095 (http)
-2024-12-17T13:31:27.658-05:00  INFO 5220 --- [petshop] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-17T13:31:27.659-05:00  INFO 5220 --- [petshop] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-17T13:31:27.730-05:00  INFO 5220 --- [petshop] [main] o.a.c.c.C.[.[localhost].[/petshop/api]   : Initializing Spring embedded WebApplicationContext
-2024-12-17T13:31:27.731-05:00  INFO 5220 --- [petshop] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1530 ms
-2024-12-17T13:31:27.998-05:00  INFO 5220 --- [petshop] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-17T13:31:28.099-05:00  INFO 5220 --- [petshop] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2024-12-17T13:31:28.148-05:00  INFO 5220 --- [petshop] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-17T13:31:28.558-05:00  INFO 5220 --- [petshop] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-17T13:31:28.598-05:00  INFO 5220 --- [petshop] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-17T13:31:28.986-05:00  INFO 5220 --- [petshop] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 8932873a-f003-42ed-acff-c826a9eff1ed
-2024-12-17T13:31:28.990-05:00  INFO 5220 --- [petshop] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-17T13:31:29.179-05:00  INFO 5220 --- [petshop] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-12-19T13:02:36.836-05:00  INFO 9536 --- [petshop] [main] p.petshop.PetshopApplication             : Starting PetshopApplication using Java 21.0.3 with PID 9536 (C:\Users\SHAREPOINT\Documents\SENA\javaSpringBoot\project_api_petshop\petshop\build\classes\java\main started by SHAREPOINT in C:\Users\SHAREPOINT\Documents\SENA\javaSpringBoot\project_api_petshop\petshop)
+2024-12-19T13:02:36.849-05:00  INFO 9536 --- [petshop] [main] p.petshop.PetshopApplication             : The following 1 profile is active: "dev"
+2024-12-19T13:02:37.660-05:00  INFO 9536 --- [petshop] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-19T13:02:37.729-05:00  INFO 9536 --- [petshop] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2024-12-19T13:02:38.373-05:00  INFO 9536 --- [petshop] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8095 (http)
+2024-12-19T13:02:38.391-05:00  INFO 9536 --- [petshop] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-19T13:02:38.391-05:00  INFO 9536 --- [petshop] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-19T13:02:38.460-05:00  INFO 9536 --- [petshop] [main] o.a.c.c.C.[.[localhost].[/petshop/api]   : Initializing Spring embedded WebApplicationContext
+2024-12-19T13:02:38.460-05:00  INFO 9536 --- [petshop] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1553 ms
+2024-12-19T13:02:38.736-05:00  INFO 9536 --- [petshop] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-19T13:02:38.840-05:00  INFO 9536 --- [petshop] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-19T13:02:38.891-05:00  INFO 9536 --- [petshop] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-19T13:02:39.327-05:00  INFO 9536 --- [petshop] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-19T13:02:39.372-05:00  INFO 9536 --- [petshop] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-19T13:02:39.741-05:00  INFO 9536 --- [petshop] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: b8cc8b73-0067-4468-be99-e5716bae6dc4
+2024-12-19T13:02:39.744-05:00  INFO 9536 --- [petshop] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-19T13:02:39.913-05:00  INFO 9536 --- [petshop] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 16.0
@@ -22,8 +22,8 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2024-12-17T13:31:30.332-05:00  INFO 5220 --- [petshop] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-17T13:31:30.734-05:00  WARN 5220 --- [petshop] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2024-12-19T13:02:40.998-05:00  INFO 9536 --- [petshop] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-19T13:02:41.431-05:00  WARN 9536 --- [petshop] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     create table categorias (
         id_categoria int identity not null,
         estado bit,
@@ -91,7 +91,7 @@ Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: There is already an 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
 	... 37 common frames omitted
 
-2024-12-17T13:31:30.742-05:00  WARN 5220 --- [petshop] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2024-12-19T13:02:41.438-05:00  WARN 9536 --- [petshop] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     create table productos (
         id_producto int identity not null,
         cantidad_stock int,
@@ -167,7 +167,7 @@ Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: There is already an 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
 	... 37 common frames omitted
 
-2024-12-17T13:31:30.751-05:00  WARN 5220 --- [petshop] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2024-12-19T13:02:41.446-05:00  WARN 9536 --- [petshop] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     alter table productos 
        add constraint FKdtoa37luoxhhvbicrfiu5ygbj 
        foreign key (id_categoria) 
@@ -230,12 +230,12 @@ Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: There is already an 
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
 	... 36 common frames omitted
 
-2024-12-17T13:31:30.754-05:00  INFO 5220 --- [petshop] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-17T13:31:30.835-05:00  WARN 5220 --- [petshop] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-17T13:31:31.624-05:00  INFO 5220 --- [petshop] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8095 (http) with context path '/petshop/api'
-2024-12-17T13:31:31.632-05:00  INFO 5220 --- [petshop] [main] p.petshop.PetshopApplication             : Started PetshopApplication in 6.138 seconds (process running for 6.941)
-2024-12-17T13:38:27.220-05:00  INFO 5220 --- [petshop] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-17T13:38:27.228-05:00  INFO 5220 --- [petshop] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-17T13:38:27.232-05:00  INFO 5220 --- [petshop] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-17T13:38:27.234-05:00  INFO 5220 --- [petshop] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-12-17T13:38:27.240-05:00  INFO 5220 --- [petshop] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-19T13:02:41.449-05:00  INFO 9536 --- [petshop] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19T13:02:41.534-05:00  WARN 9536 --- [petshop] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-19T13:02:42.259-05:00  INFO 9536 --- [petshop] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8095 (http) with context path '/petshop/api'
+2024-12-19T13:02:42.267-05:00  INFO 9536 --- [petshop] [main] p.petshop.PetshopApplication             : Started PetshopApplication in 6.031 seconds (process running for 6.947)
+2024-12-19T13:12:04.398-05:00  INFO 9536 --- [petshop] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-19T13:12:04.409-05:00  INFO 9536 --- [petshop] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-19T13:12:04.415-05:00  INFO 9536 --- [petshop] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-19T13:12:04.418-05:00  INFO 9536 --- [petshop] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-19T13:12:04.426-05:00  INFO 9536 --- [petshop] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
